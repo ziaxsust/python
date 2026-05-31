@@ -1,0 +1,119 @@
+Python Learning Roadmap (Beginner to Advanced):
+
+Beginner Foundations:
+---------------------
+1. Python Basics: syntax, variables, input/output, comments
+2. Data Types: string, integers, floats, booleans
+3. Operators: arithmetic, comparison, logical
+4. Control Flow: if/else, for loops, while loops
+5. Functions: parameters, return values, scope
+6. Lists: indexing, slicing, methods
+7. Tuples: immutability, unpacking
+8. Distionary: key/value pair, iteration
+9. Sets: uniqueness, set operations
+
+Intermediate Concepts:
+----------------------
+1. Modules & packages: importing, creating Modules
+2. File Handling: read/write files, CSV, JSON
+3. Error Handling: try/except, custom exceptions
+4. List Comprehensions: concise list creation
+5. Lambda Functions: anonymous functions
+6. Virtual Environment: venv, pip
+7. Object-Oriented Programming: classes, Object, inheritance, polymorphism
+
+Advanced Python:
+---------------
+1. Decorators: function wrappers
+2. Generators: yield, lazy evaluation
+3. Iterators: custom iterator classes
+4. Context Managers: with statement
+5. Typing & Type Hints: static Typing
+6. Concurrency: async/await, asyncio
+7. Multithreading: threads, GIL
+8. Multiprocessing: parallel execution
+ 
+
+
+Here are 50 real-time Python problems categorized by domain:
+🔢 Math & Logic (1–10)
+#	Problem	Concepts Used
+1	Calculate simple and compound interest for a loan --- Arithmetic, functions
+2	Find all prime numbers between 1 and 1000 --- Loops, conditionals
+3	Convert temperature between Celsius, Fahrenheit & Kelvin --- Functions, formulas
+4	Generate Fibonacci sequence up to N terms --- Recursion, loops
+5	Check if a number is Armstrong, Perfect, or Palindrome --- Conditionals, math
+6	Calculate BMI and classify health category --- Input, arithmetic
+7	Build a basic calculator with all operations --- Functions, conditionals
+8	Find GCD and LCM of two numbers --- math module
+9	Count digits, vowels, and special characters in a string --- String methods, loops
+10	Solve a quadratic equation and display roots --- math, conditionals
+
+📋 Data Structures (11–20)
+#	Problem	Concepts Used
+11	Merge two sorted lists without duplicates --- Lists, sets
+12	Find the most frequent element in a list --- Dictionary, Counter
+13	Flatten a nested list into a single list --- Recursion, lists
+14	Implement a stack and queue from scratch --- Classes, lists
+15	Rotate a list by N positions --- Slicing, loops
+16	Group anagrams together from a word list --- Dictionary, sorting
+17	Find the second largest number in a list --- Sorting, sets
+18	Remove duplicates from a list while preserving order --- Sets, loops
+19	Build a phone book using dictionary (add/search/delete) --- Dictionary, CRUD
+20	Check if two strings are anagrams of each other --- Sorting, Counter
+
+📁 File Handling (21–25)
+#	Problem	Concepts Used
+21	Read a CSV file and calculate average salary by department --- CSV, Pandas
+22	Count word frequency in a text file and export results --- File I/O, Dictionary
+23	Merge multiple text files into one with headers --- File I/O, loops
+24	Find and replace a word in a large text file --- File I/O, string methods
+25	Parse a JSON config file and display formatted output --- json module
+
+🌐 Web & APIs (26–30)
+#	Problem	Concepts Used
+26	Fetch live weather data using OpenWeatherMap API --- requests, JSON
+27	Build a currency converter using an exchange rate API --- requests, dict
+28	Scrape top headlines from a news website --- BeautifulSoup, requests
+29	Download all images from a webpage automatically --- requests, os, BeautifulSoup
+30	Build a REST API for a to-do list app --- Flask/FastAPI
+
+🤖 Automation (31–35)
+#	Problem	Concepts Used
+31	Auto-rename 100+ files in a folder by date/type --- os, datetime
+32	Send automated emails with attachments --- smtplib, email
+33	Monitor a website and alert if it goes down --- requests, time, smtplib
+34	Auto-fill a web form using Selenium --- Selenium, WebDriver
+35	Schedule a Python script to run every day at 9 AM --- schedule, cron
+
+🗄️ Database (36–40)
+#	Problem	Concepts Used
+36	Build a student grade management system with SQLite --- sqlite3, CRUD
+37	Store and retrieve user login data securely --- sqlite3, hashing
+38	Generate a sales report from a database --- sqlite3, Pandas
+39	Build an inventory management system --- sqlite3, OOP
+40	Migrate data from CSV to SQLite database --- CSV, sqlite3
+
+🧪 OOP & Design (41–45)
+#	Problem	Concepts Used
+41	Build a bank account system with deposit/withdraw/transfer --- OOP, encapsulation
+42	Create a library management system (books, members) --- OOP, inheritance
+43	Design an e-commerce cart with discount logic --- OOP, conditionals
+44	Build a simple ATM simulation --- OOP, loops, conditionals
+45	Implement a parking lot system with slot management --- OOP, data structures
+
+📊 Data & Visualization (46–50)
+#	Problem	Concepts Used
+46	Analyze COVID-19 data and plot trends by country --- Pandas, Matplotlib
+47	Visualize stock price movement over 6 months --- Pandas, Matplotlib/Plotly
+48	Build a student performance dashboard --- Pandas, Seaborn
+49	Predict house prices using linear regression --- Scikit-learn, Pandas
+50	Cluster customers by purchase behavior --- Scikit-learn, K-Means
+
+📌 Difficulty Summary
+Level	Problems	Count
+🟢 Beginner	1–10, 11–20	20
+🟡 Intermediate	21–25, 31–35, 36–40	15
+🔴 Advanced	26–30, 41–45, 46–50	15
+
+Pro Tip: Start from Problem 1 and work your way up. Try to solve each problem without looking at solutions first — even a partial attempt builds strong problem-solving instincts!
